@@ -91,10 +91,8 @@ publishing {
 			}
 
 			credentials {
-				if (env.REPO_USER.isPresent && env.REPO_TOKEN) {
-					username env.REPO_USER
-					password env.REPO_TOKEN
-				}
+				username env.REPO_USER.value
+				password env.REPO_TOKEN.value
 			}
 		}
 	}

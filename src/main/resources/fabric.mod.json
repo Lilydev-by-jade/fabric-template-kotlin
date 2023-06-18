@@ -1,39 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "example_mod",
+  "id": "template",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Template Mod",
+  "description": "This is a template mod description!",
   "authors": [
     "jadelily18"
   ],
   "contact": {
     "homepage": "https://lilydev.com/",
-    "issues": "https://github.com/jadelily18/fabric-template-kotlin/issues",
-    "sources": "https://github.com/jadelily18/fabric-template-kotlin"
+    "issues": "https://github.com/Lilydev-by-jade/fabric-template-kotlin/issues",
+    "sources": "https://github.com/Lilydev-by-jade/fabric-template-kotlin"
   },
 
   "license": "LGPL-3.0",
-  "icon": "assets/example_mod/icon.png",
+  "icon": "assets/template/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "com.lilydev.example_mod.ExampleMod"
-      }
-    ],
-    "modmenu": [
-      {
-        "adapter": "kotlin",
-        "value": "com.lilydev.example_mod.integrations.ModMenuImpl"
+        "value": "com.lilydev.template.Template"
       }
     ]
   },
   "mixins": [
-    "example_mod.mixins.json"
+    "template.mixins.json"
   ],
 
   "depends": {
@@ -41,7 +35,7 @@
     "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17",
-    "fabric-language-kotlin": ">=1.8.5+kotlin.1.7.20"
+    "fabric-language-kotlin": "*"
   },
   "suggests": {
     "another-mod": "modmenu"

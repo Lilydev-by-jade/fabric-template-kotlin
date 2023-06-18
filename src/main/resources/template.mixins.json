@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.lilydev.example_mod.mixin",
+  "package": "com.lilydev.template.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "TemplateMixin"
   ],
   "injectors": {
     "defaultRequire": 1

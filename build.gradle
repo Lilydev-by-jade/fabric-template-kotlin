@@ -1,7 +1,7 @@
 plugins {
 	id "fabric-loom" version "1.2-SNAPSHOT"
 	id "io.github.juuxel.loom-quiltflower" version "1.10.0"
-	id "org.jetbrains.kotlin.jvm" version "1.8.22"
+	id "org.jetbrains.kotlin.jvm" version "1.9.10"
 	id "co.uzzu.dotenv.gradle" version "2.0.0"
 	id "maven-publish"
 }
@@ -19,7 +19,6 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
-
 }
 
 dependencies {

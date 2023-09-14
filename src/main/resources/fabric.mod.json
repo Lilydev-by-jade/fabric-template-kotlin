@@ -14,7 +14,7 @@
     "sources": "https://github.com/Lilydev-by-jade/fabric-template-kotlin"
   },
 
-  "license": "LGPL-3.0",
+  "license": "Unlicense",
   "icon": "assets/template/icon.png",
 
   "environment": "*",
@@ -43,7 +43,7 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.discord": "https://discord.gg/TZAt4PA5av",
+        "modmenu.discord": "https://discord.lilydev.com",
         "modmenu.kofi": "https://ko-fi.com/jadelily"
       }
     }

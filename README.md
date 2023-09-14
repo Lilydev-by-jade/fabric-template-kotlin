@@ -7,5 +7,5 @@ meant for my mods, so I have less boilerplate to write.
 
 ## License
 
-This template is licensed under [The Unilicense](/LICENSE), but mods created with
+This template is licensed under [The Unlicense](/LICENSE), but mods created with
 this template do not have to use it.
